@@ -4,10 +4,10 @@ export function useCount() {
   const count = useLocalStorage('pinia/counter/count', 0)
 
   function inc() {
-    count.value += 1
+    count.value++
   }
   function dec() {
-    count.value -= 1
+    count.value--
   }
 
   return {
