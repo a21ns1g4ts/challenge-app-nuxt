@@ -14,6 +14,6 @@
   </v-btn>
 </template>
 
-<script setup lang='ts'>
-const { count, inc, dec } = useCount()
+<script setup lang="ts">
+const { count, inc } = useCount();
 </script>
